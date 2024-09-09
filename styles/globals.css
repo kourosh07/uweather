@@ -4,51 +4,52 @@ body {
   padding: 0;
   margin: 0;
 
-  font-family: Segoe UI, vr, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* background-image: url("https://irmapserver.ir/userv/wp.webp"); */
-  background-size:contain;
+  font-family: Segoe UI, vr, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background-image: url("https://cdn.ituring.ir/userv/wp.webp"); */
+  background-size: contain;
   scroll-behavior: smooth;
-
 
   /* background-position: center top; */
 }
 
-img[alt]{font-size:3px;}
+img[alt] {
+  font-size: 3px;
+}
 
 @font-face {
   font-family: br;
-  src: url("https://irmapserver.ir/qepal/fonts/br.woff2");
+  src: url("https://cdn.ituring.ir/qepal/fonts/br.woff2");
 }
 
 @font-face {
   font-family: bm;
-  src: url("https://irmapserver.ir/qepal/bm.woff2");
+  src: url("https://cdn.ituring.ir/qepal/bm.woff2");
 }
 
 @font-face {
   font-family: bb;
-  src: url("https://irmapserver.ir/qepal/fonts/bb.woff2");
+  src: url("https://cdn.ituring.ir/qepal/fonts/bb.woff2");
 }
 
 @font-face {
   font-family: zh;
-  src: url("https://irmapserver.ir/qepal/fonts/zh.otf");
+  src: url("https://cdn.ituring.ir/qepal/fonts/zh.otf");
 }
 
 @font-face {
   font-family: ko;
-  src: url("https://irmapserver.ir/qepal/fonts/ko.otf");
+  src: url("https://cdn.ituring.ir/qepal/fonts/ko.otf");
 }
 
 @font-face {
   font-family: vr;
-  src: url("https://irmapserver.ir/qepal/fonts/vr.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vr.woff");
 }
 
 @font-face {
   font-family: vrb;
-  src: url("https://irmapserver.ir/qepal/fonts/vrb.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vrb.woff");
 }
 
 .ace_autocomplete {
@@ -74,7 +75,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-textarea{
+textarea {
   border: #aaa 1px solid;
 }
 
@@ -102,23 +103,20 @@ textarea:focus {
   /* background-color:black; */
 }
 
-
 g-b {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ddd;
   border-radius: 5px;
-  height:30px;
+  height: 30px;
   cursor: pointer;
 }
-g-b:hover
-{
-  filter: saturate(180%)
+g-b:hover {
+  filter: saturate(180%);
 }
-g-b:active
-{
-  filter: saturate(80%)
+g-b:active {
+  filter: saturate(80%);
 }
 g-c {
   display: grid;
@@ -128,47 +126,42 @@ g-c {
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
- g-c{
+  g-c {
     grid-template-columns: repeat(3, 1fr);
   }
-  body{
-    background-size:cover;
+  body {
+    background-size: cover;
   }
 }
 
-
-g-i{
+g-i {
   padding: 10px;
   border-radius: 3px;
-  margin: 5px
+  margin: 5px;
 }
 
-btn-g
-{
+btn-g {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8CBF8F;
+  background-color: #8cbf8f;
   border-radius: 5px;
-  height:30px;
+  height: 30px;
   cursor: pointer;
 }
 
-btn-g:hover
-{
+btn-g:hover {
   filter: saturate(180%);
 }
-btn-g:active
-{
+btn-g:active {
   filter: saturate(80%);
 }
-
 
 lkg-s,
 lkr-s,
 lkr-v,
 lkg-v {
-  background-image: url("https://irmapserver.ir/qepal/likegreen.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likegreen.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 21px;
@@ -188,14 +181,13 @@ lkg-v {
 
 lkr-s,
 lkr-v {
-  background-image: url("https://irmapserver.ir/qepal/likered3.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likered3.svg");
   transform: rotate(180deg);
 }
 
 lkr-v {
   transform: rotate(180deg);
 }
-
 
 lkg-s:hover,
 lkr-s:hover,
@@ -209,11 +201,6 @@ lkr-s:hover,
 lkr-v:hover {
   transform: rotate(180deg) scale(1.2);
 }
-
-
-
-
-
 
 f-x,
 f-c,
@@ -349,10 +336,6 @@ f-es {
   justify-content: stretch;
 }
 
-
-
-
-
 ic-3 {
   display: flex;
   position: relative;
@@ -402,11 +385,9 @@ f-25 {
   padding: 0;
 }
 
-
 input:focus {
   outline: none;
 }
-
 
 f-5 {
   font-size: 5px;
@@ -482,12 +463,11 @@ f-25 {
   font-size: 25px;
 }
 
-
 h1 {
   font-size: 13px;
   line-height: 1;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 h1-u {
@@ -504,7 +484,7 @@ h2 {
 
 h2-u {
   font-size: 11px;
-  line-height: 0.0;
+  line-height: 0;
   margin: 0;
 }
 
@@ -517,7 +497,6 @@ h3-u {
   font-size: 10px;
   margin: 0;
 }
-
 
 br-x {
   display: block;
@@ -581,46 +560,40 @@ a-s {
   font-size: 12px;
 }
 
-h-tag, n-tag{
+h-tag,
+n-tag {
   display: inline-block;
-  color: #3C2105;
+  color: #3c2105;
   font-size: 9px;
-  background-color: hsla(35,63%,75%,0.42);
+  background-color: hsla(35, 63%, 75%, 0.42);
   border-radius: 2px;
   padding: 1px 3px;
   line-height: 1.1;
   margin: 0 2px;
 }
-h-tag:hover
-{
-  background-color: #E7C495;
+h-tag:hover {
+  background-color: #e7c495;
 }
-h-tag:active
-{
-  background-color: #C69B64;
+h-tag:active {
+  background-color: #c69b64;
 }
 
-
-n-tag{
+n-tag {
   font-size: 10px;
   padding: 2px 3px;
-  background-color: hsla(89,42%,79%,0.63);
+  background-color: hsla(89, 42%, 79%, 0.63);
 }
-h-tag:hover
-{
-  background-color: hsla(89,51%,78%,0.63);
+h-tag:hover {
+  background-color: hsla(89, 51%, 78%, 0.63);
 }
-h-tag:active
-{
-  background-color: hsla(90,37%,80%,0.63);
+h-tag:active {
+  background-color: hsla(90, 37%, 80%, 0.63);
 }
-
-
 
 a:hover,
 a-s:hover,
 a-x:hover {
-  filter: saturate(180%)
+  filter: saturate(180%);
 }
 
 ::selection {
@@ -646,7 +619,6 @@ h4 {
   font-size: 12px;
   font-weight: normal;
 }
-
 
 p {
   text-align: justify;
@@ -674,7 +646,6 @@ input[type="number"] {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
-  
 }
 
 /* textarea, textarea:focus

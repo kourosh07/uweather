@@ -3,26 +3,23 @@ body {
   /* height: 100%; */
   padding: 0;
   margin: 0;
-  
-  font-family:vr, Segoe UI, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  font-family: vr, Segoe UI, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /* background-image: url("/bg.webp"); */
-  background-size:cover;
+  background-size: cover;
   scroll-behavior: smooth;
   background-position: center top;
 }
 
 @font-face {
   font-family: vr;
-  src: url("https://irmapserver.ir/qepal/fonts/vr.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vr.woff");
 }
 @font-face {
   font-family: vrb;
-  src: url("https://irmapserver.ir/qepal/fonts/vrb.woff");
+  src: url("https://cdn.ituring.ir/qepal/fonts/vrb.woff");
 }
-
-
-
 
 .blackblurybg {
   opacity: 0.7;
@@ -45,16 +42,15 @@ body {
 
 .hover:active,
 .opaque:active {
-  filter: saturate(140%)
+  filter: saturate(140%);
 }
-
 
 .dialog {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #ECE0D1;
+  background-color: #ece0d1;
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
   z-index: 25000;
   border-radius: 0.5rem;
@@ -66,19 +62,15 @@ g-b {
   align-items: center;
   background-color: #ddd;
   border-radius: 5px;
-  height:30px;
+  height: 30px;
   cursor: pointer;
 }
-g-b:hover
-{
-  filter: saturate(180%)
+g-b:hover {
+  filter: saturate(180%);
 }
-g-b:active
-{
-  filter: saturate(80%)
+g-b:active {
+  filter: saturate(80%);
 }
-
-
 
 g-c2 {
   display: grid;
@@ -110,38 +102,34 @@ g-c {
   row-gap: 2px;
 }
 
-g-i{
+g-i {
   padding: 10px;
   border-radius: 3px;
-  margin: 5px
+  margin: 5px;
 }
 
-btn-g
-{
+btn-g {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8CBF8F;
+  background-color: #8cbf8f;
   border-radius: 5px;
-  height:30px;
+  height: 30px;
   cursor: pointer;
 }
 
-btn-g:hover
-{
+btn-g:hover {
   filter: saturate(180%);
 }
-btn-g:active
-{
+btn-g:active {
   filter: saturate(80%);
 }
-
 
 lkg-s,
 lkr-s,
 lkr-v,
 lkg-v {
-  background-image: url("https://irmapserver.ir/qepal/likegreen.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likegreen.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 21px;
@@ -161,14 +149,13 @@ lkg-v {
 
 lkr-s,
 lkr-v {
-  background-image: url("https://irmapserver.ir/qepal/likered3.svg");
+  background-image: url("https://cdn.ituring.ir/qepal/likered3.svg");
   transform: rotate(180deg);
 }
 
 lkr-v {
   transform: rotate(180deg);
 }
-
 
 lkg-s:hover,
 lkr-s:hover,
@@ -182,11 +169,6 @@ lkr-s:hover,
 lkr-v:hover {
   transform: rotate(180deg) scale(1.2);
 }
-
-
-
-
-
 
 f-x,
 f-c,
@@ -322,10 +304,6 @@ f-es {
   justify-content: stretch;
 }
 
-
-
-
-
 ic-3 {
   display: flex;
   position: relative;
@@ -375,11 +353,9 @@ f-25 {
   padding: 0;
 }
 
-
 input:focus {
   outline: none;
 }
-
 
 f-5 {
   font-size: 5px;
@@ -455,12 +431,11 @@ f-25 {
   font-size: 25px;
 }
 
-
 h1 {
   font-size: 13px;
   line-height: 1;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 h1-u {
@@ -477,7 +452,7 @@ h2 {
 
 h2-u {
   font-size: 11px;
-  line-height: 0.0;
+  line-height: 0;
   margin: 0;
 }
 
@@ -490,7 +465,6 @@ h3-u {
   font-size: 10px;
   margin: 0;
 }
-
 
 br-x {
   display: block;
@@ -554,46 +528,40 @@ a-s {
   font-size: 12px;
 }
 
-h-tag, n-tag{
+h-tag,
+n-tag {
   display: inline-block;
-  color: #3C2105;
+  color: #3c2105;
   font-size: 9px;
-  background-color: hsla(35,63%,75%,0.42);
+  background-color: hsla(35, 63%, 75%, 0.42);
   border-radius: 2px;
   padding: 1px 3px;
   line-height: 1.1;
   margin: 0 2px;
 }
-h-tag:hover
-{
-  background-color: #E7C495;
+h-tag:hover {
+  background-color: #e7c495;
 }
-h-tag:active
-{
-  background-color: #C69B64;
+h-tag:active {
+  background-color: #c69b64;
 }
 
-
-n-tag{
+n-tag {
   font-size: 10px;
   padding: 2px 3px;
-  background-color: hsla(89,42%,79%,0.63);
+  background-color: hsla(89, 42%, 79%, 0.63);
 }
-h-tag:hover
-{
-  background-color: hsla(89,51%,78%,0.63);
+h-tag:hover {
+  background-color: hsla(89, 51%, 78%, 0.63);
 }
-h-tag:active
-{
-  background-color: hsla(90,37%,80%,0.63);
+h-tag:active {
+  background-color: hsla(90, 37%, 80%, 0.63);
 }
-
-
 
 a:hover,
 a-s:hover,
 a-x:hover {
-  filter: saturate(180%)
+  filter: saturate(180%);
 }
 
 ::selection {
@@ -620,7 +588,6 @@ h4 {
   font-weight: normal;
 }
 
-
 p {
   text-align: justify;
   word-spacing: -0.5px;
@@ -631,7 +598,6 @@ p {
   padding: 0;
   margin: 0;
 }
-
 
 .checkbox * {
   box-sizing: border-box;
@@ -700,13 +666,13 @@ p {
   visibility: hidden;
 }
 
-.checkbox .inpcbx:checked+.cbx span:first-child {
+.checkbox .inpcbx:checked + .cbx span:first-child {
   background: rgb(186, 164, 116);
   border-color: rgb(186, 164, 116);
   animation: wave-4 0.4s ease;
 }
 
-.checkbox .inpcbx:checked+.cbx span:first-child svg {
+.checkbox .inpcbx:checked + .cbx span:first-child svg {
   stroke-dashoffset: 0;
 }
 
@@ -723,11 +689,11 @@ p {
 }
 
 .hoverbtn:hover {
-  filter: saturate(180%)
+  filter: saturate(180%);
 }
 
 .hoverbtn:active {
-  filter: saturate(80%)
+  filter: saturate(80%);
 }
 
 .hover {
@@ -740,9 +706,8 @@ p {
 
 .hover:active,
 .opaque:active {
-  filter: saturate(140%)
+  filter: saturate(140%);
 }
-
 
 .hoverbold {
   cursor: pointer;
@@ -758,7 +723,6 @@ p {
   filter: saturate(140%);
   font-weight: 600;
 }
-
 
 * {
   font-weight: normal;

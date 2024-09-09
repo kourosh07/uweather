@@ -382,7 +382,7 @@ export async function getServerSideProps(context) {
     userip,
   } = session;
 
-  let res = await fetch("https://irmapserver.ir/research/api/weather/");
+  let res = await fetch("https://cdn.ituring.ir/research/api/weather/");
   let data = await res.json();
   let weather = data;
 
